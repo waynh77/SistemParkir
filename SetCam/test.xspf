@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>dshow://</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>dshow-vdev=Dexetek Polaris Video Capture</vlc:option>
+				<vlc:option>dshow-adev=</vlc:option>
+				<vlc:option>dshow-aspect-ratio=4:3</vlc:option>
+				<vlc:option>dshow-chroma=YUY2</vlc:option>
+				<vlc:option>dshow-fps=0</vlc:option>
+				<vlc:option>dshow-config</vlc:option>
+				<vlc:option>no-dshow-tuner</vlc:option>
+				<vlc:option>dshow-tuner-channel=0</vlc:option>
+				<vlc:option>dshow-tuner-frequency=0</vlc:option>
+				<vlc:option>dshow-tuner-country=0</vlc:option>
+				<vlc:option>dshow-tuner-standard=0</vlc:option>
+				<vlc:option>dshow-tuner-input=0</vlc:option>
+				<vlc:option>dshow-video-input=-1</vlc:option>
+				<vlc:option>dshow-video-output=-1</vlc:option>
+				<vlc:option>dshow-audio-input=-1</vlc:option>
+				<vlc:option>dshow-audio-output=-1</vlc:option>
+				<vlc:option>dshow-amtuner-mode=1</vlc:option>
+				<vlc:option>dshow-audio-channels=0</vlc:option>
+				<vlc:option>dshow-audio-samplerate=0</vlc:option>
+				<vlc:option>dshow-audio-bitspersample=0</vlc:option>
+				<vlc:option>live-caching=300</vlc:option>
+				<vlc:option>snapshot-path=d:\</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+	</extension>
+</playlist>
